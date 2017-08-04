@@ -68,4 +68,4 @@ names(mergedstep4)
 TidyData<-ddply(mergedstep4,.(Activity,Subject),function(x)colMeans(x[,1:86],na.rm = TRUE))
 
 ## Writing data set to File 
-write.table(TidyData,"./R/proj2/UCIHARDataset/tidydata.csv",sep = ",")
+write.table(TidyData,"./R/proj2/UCIHARDataset/tidydata.txt",row.names = FALSE)

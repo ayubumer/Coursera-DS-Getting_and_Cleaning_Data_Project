@@ -9,7 +9,7 @@ output: github_document
 
 - 'README.md' 
 
-- 'tidydata.CSV'   : Averages on all variables by Subject and activity for both Combined 
+- 'tidydata.txt'   : Averages on all variables by Subject and activity for both Combined 
                      Training and Test data Set 
 
 - 'CodeBook.md'    : Describes the variables, the data, and any transformations or Steps 
